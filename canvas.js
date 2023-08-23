@@ -21,7 +21,7 @@ function circulo(x,y, r, vw, vh){
    this.desenho = function(){
        c.beginPath()
        c.arc(this.x, this.y, this.r, 0, mathpi, false)
-       c.strokeStyle = 'orange'
+       c.strokeStyle = 'cyan'
        c.stroke()
    }
 
@@ -61,6 +61,8 @@ function animation(){
 animation()
 
 
-
+window.addEventListener('mousemove', (e)=>{
+   console.log("mouse-width:", e.x, "mouse-heigth:", e.y)
+})
 
 

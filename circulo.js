@@ -1,10 +1,9 @@
-
 export function gerar_posX(){
     let x = parseInt(Math.random() * innerWidth)
     if (x < 30){
         x = x + 30
     }
-    if (x > 1400 ){
+    if (x > 1200 ){
         x = x - 30
     }
     return x
@@ -24,8 +23,8 @@ export function gerar_poxY(){
 
 export function tamanho_raio(){
     let r = parseInt(Math.random() * 30)
-    if (r == 1){
-        r += 1
+    if (r < 3){
+        r += 3
     }
     return r
 }
