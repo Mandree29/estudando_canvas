@@ -30,7 +30,7 @@ export function tamanho_raio(){
 }
 
 function gerador_velocidade(){
-    let v = parseInt(Math.random() * 10)
+    let v = parseInt(Math.random() * 5)
     if(v == 0){
         v = 1
     }
@@ -50,4 +50,18 @@ export function velocidade(){
   }else{
     return -v
   }
+}
+
+export function sorteia_cor(){
+    let n = parseInt(Math.random() * 5)
+    return n
+}
+
+export var cores = ["yellow", "white", "gray", "gold", "silver"]
+
+
+
+export function cor_seletor(){
+    let cor = cores[sorteia_cor()]
+    return cor
 }
