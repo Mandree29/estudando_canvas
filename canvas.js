@@ -70,7 +70,7 @@ function circulo(x,y, vw, vh){
 
 }
 
-for (let index = 0; index < 400; index++) {
+for (let index = 0; index < 100; index++) {
    bolas_arrary.push(new circulo(gerar_posX(), gerar_poxY(), velocidade(), velocidade()))  
 }
 for (let index = 0; index < bolas_arrary.length; index++) {

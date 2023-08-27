@@ -57,7 +57,7 @@ export function sorteia_cor(){
     return n
 }
 
-export var cores = ["yellow", "white", "gray", "gold", "silver"]
+export var cores = ["#03045e", "#0077b6", "#0096c7", "#48cae4", "#ade8f4"]
 
 
 
